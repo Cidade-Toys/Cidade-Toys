@@ -1,0 +1,53 @@
+:root{
+    --body-color: #0c0c23;
+    --color1:#022530 ;
+    --color2:#054961 ; 
+    --color3:#ffff00 ;
+    --color4:#00ffff ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+
+#imgBatman{
+    width: 160px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+}
+
+nav{
+    width: 100%;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--color3);
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid var(--color3);
+}
+
+body{
+    background-color: #0c0c23;
+}
+
